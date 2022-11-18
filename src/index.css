@@ -1,0 +1,65 @@
+:root {
+    --primaryLightColor: #a5bfe6;
+    --primaryColor: #392e6a;
+    --mainWhite: #fff;
+    --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
+    --mainBorderRadius: 0.25rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.filters-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--mainWhite);
+    padding: 2rem 2.5rem;
+    text-transform: capitalize;
+    text-align: center;
+    border-radius: var(--mainBorderRadius);
+    box-shadow: var(--lightShadow);
+    margin-bottom: 10px;
+}
+
+.brewery-types {
+    margin-right: 10px;
+    cursor: pointer;
+    background: var(--primaryLightColor);
+    color: var(--primaryColor);
+    border-color: transparent;
+}
+
+.btn-clear-filters,
+.btns-back-next,
+.btn-back-home {
+    background: var(--primaryColor);
+    color: var(--mainWhite);
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.btn-back-home {
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.breweries-list-section {
+    text-align: center;
+    background-color: #d0d4e9;
+    padding: 15px 0;
+}
+
+.brewery-data {
+    font-weight: 700;
+}
+
+.brewery-details-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #d0d4e9;
+}
